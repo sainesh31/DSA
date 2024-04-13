@@ -11,6 +11,7 @@ function printAllNumbersThenAllPairSums(numbers) {
         console.log(firstNumber + secondNumber);
       });
     });
+    
   }
   
   printAllNumbersThenAllPairSums([1,2,3,4,5])
