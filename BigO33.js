@@ -10,6 +10,7 @@ function funChallenge(input) {
     }
     return a; //O(1)
   }
+  
 
   funChallenge()
 
