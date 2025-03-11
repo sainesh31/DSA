@@ -137,16 +137,29 @@ li:last-child {
 }
 
 body {
-  /* background-color: orangered; */
+  background-color: orangered;
+}
+.container {
+  background-color: green;
 }
 
 /* .first-li {
   font-weight: bold;
 } */
 
-li:first-child {
+/* li:first-child {
   font-weight: bold;
+  border: 5px solid green;
 }
+article p:first-child {
+  font-weight: bold;
+  border: 5px solid yellow;
+}
+
+article p:nth-child(odd) {
+  font-weight: bold;
+  border: 5px solid orange;
+} */
 
 li:last-child {
   font-style: italic;
@@ -169,7 +182,7 @@ a:link {
 
 a:visited {
   /* color: #777; */
-  color: #1098ad;
+  color: green;
 }
 
 a:hover {
@@ -245,7 +258,7 @@ h2::before {
 }
 
 /* Resolving conflicts */
-/* #copyright {
+#copyright {
   color: red;
 }
 
@@ -259,7 +272,7 @@ h2::before {
 
 footer p {
   color: green !important;
-} */
+}
 
 /* nav a:link,
 nav p {

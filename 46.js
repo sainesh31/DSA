@@ -3,7 +3,6 @@ var permute = function (letters) {
   dfs(letters, [], Array(letters.length).fill(false), res);
   return res;
 };
-
 function dfs(letters, path, used, res) {
   debugger;
   if (path.length == letters.length) {
