@@ -32,7 +32,7 @@ body {
 
 nav {
   font-size: 18px;
-  /* text-align: center; */
+  text-align: center;
 }
 
 article {
@@ -41,7 +41,7 @@ article {
 
 .post-header {
   margin-bottom: 40px;
-  /* position: relative; */
+  position: relative;
 }
 
 aside {
@@ -136,12 +136,12 @@ li:last-child {
   list-style: none;
 }
 
-body {
+/* body {
   background-color: orangered;
 }
 .container {
   background-color: green;
-}
+} */
 
 /* .first-li {
   font-weight: bold;
@@ -202,6 +202,7 @@ a:active {
   height: auto;
 }
 
+/* box model */
 nav a:link {
   /* background-color: orangered;
   margin: 20px;
@@ -235,12 +236,15 @@ h1::first-letter {
   margin-right: 5px;
 }
 
+/* p::first-line {
+  color: orange;
+} */
 h3 + p::first-line {
-  /* color: red; */
+  color: red;
 }
 
 h2 {
-  /* background-color: orange; */
+  background-color: orange;
   position: relative;
 }
 
