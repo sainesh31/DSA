@@ -17,7 +17,6 @@ function markCol(matrix, n, m, j) {
 }
 
 function zeroMatrix(matrix, n, m) {
-  debugger;
   // Set -1 for rows and cols that contains 0. Don't mark any 0 as -1:
   for (let i = 0; i < n; i++) {
     for (let j = 0; j < m; j++) {
@@ -27,7 +26,7 @@ function zeroMatrix(matrix, n, m) {
       }
     }
   }
-  // Finally, mark all -1 as 0:
+  // Finally, mark all -1 as 01:
   for (let i = 0; i < n; i++) {
     for (let j = 0; j < m; j++) {
       if (matrix[i][j] === -1) {
